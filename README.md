@@ -1,6 +1,7 @@
 # HakD_2022_Connect-4
 ### This is a project for HakD 2022: Game On.
 #### Code by Shuntao Z., with help from Daniel H., Harrison W. and Eddie.
+###### Music: www.bensound.com
 You may use this code, and the win checking code is actually quite good, go check it out. Libraries used: Pygame, Art, Colorama
 In main.py, between lines 155 and 192, you can find a wincheck section that can be aplied to multiple situations where you have to find a certain amount of the same character in a line in a 2D array. Simply change the `'Y'` and `'R'` in `for turn in ['Y','R']` to the values you want to check for (one for each team). If you want to check for different lengths, change the If statements. The function returns the winning symbol, "No" (The game has yet to finish) or "Draw" (A draw).
 ```
